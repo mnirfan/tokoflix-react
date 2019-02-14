@@ -1,0 +1,125 @@
+.header {
+    color: white;
+    background-color: #313131;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .header .poster {
+    width: 300px;
+    height: 450px;
+  }
+  .header .info {
+    display: flex;
+    flex-flow: column;
+    font-size: 14pt;
+    margin-left: 24px;
+  }
+  .header .info #title {
+    font-size: 2em;
+  }
+  .header .info #title span {
+    font-size: 0.85em;
+  }
+  .header .info .overview {
+    font-size: 12pt;
+  }
+  .header .info .actions {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  .header .info .actions > * {
+    margin-right: 36px;
+  }
+  .header .info .actions > div {
+    display: flex;
+    align-items: center;
+  }
+  .header .info .actions > div span {
+    margin-left: 4px;
+  }
+  .header .info .overview > span {
+    font-size: 16pt;
+    font-weight: bold;
+  }
+  .cast-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cast-card {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+    margin-right: 24px;
+    margin-bottom: 24px;
+    width: 138px;
+  }
+  .cast-card .photo {
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c5c5c5;
+    background-color: #414141;
+  }
+  .cast-card .photo i {
+    font-size: 42px;
+  }
+  .cast-card .photo img {
+    width: 100%;
+    height: 100%;
+  }
+  .cast-card p {
+    padding: 4px 12px;
+    margin: 0;
+    word-wrap: break-word;
+  }
+  .cast-card p.name {
+    font-weight: bold;
+  }
+  .cast-card p.character {
+    margin-bottom: 24px;
+  }
+  .section-title {
+    margin-top: 36px;
+  }
+  .recomm-list {
+    display: flex;
+    overflow: auto;
+    overflow-x: scroll;
+  }
+  .recomm-list .recomm-card {
+    max-width: 250px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+    margin-right: 24px;
+    margin-left: 4px;
+    margin-bottom: 24px;
+    cursor: pointer;
+  }
+  .recomm-list .recomm-card .backdrop {
+    width: 250px;
+    height: 141px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #414141;
+    color: #c5c5c5;
+  }
+  .recomm-list .recomm-card .backdrop i {
+    font-size: 42px;
+  }
+  .recomm-list .recomm-card .backdrop img {
+    width: 100%;
+    height: 100%;
+  }
+  .recomm-list .recomtext {
+    justify-content: space-between;
+  }
+  .recomm-list .recomtext > div {
+    margin: 8px;
+  }
+  .recomm-list .recomtext .recomm-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  

@@ -1,0 +1,53 @@
+.pagination * {
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+.pagination-status {
+margin: 12px;
+}
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+
+  .movie-list .movie-item {
+    width: 48%;
+    margin-bottom: 16px;
+    display: flex;}
+    .movie-item:hover {
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,0.12);
+    }
+    .movie-item .poster>img {
+      height: 278px;
+    }
+    .movie-item .info {
+      width: 100%;
+      padding: 12px;
+      position: relative;}
+      .movie-item .info h2 {
+        font-size: 18px;
+        margin: 0 0 12px 0;
+      }
+      .movie-item .info p {
+        margin: 0;
+      }
+      .movie-item .info .rating {
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;}
+        .rating img {
+          height: 20px;
+        }
+        .movie-item .info .action {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;}
+        .movie-item .info .bought {
+          padding: 12px;
+  }

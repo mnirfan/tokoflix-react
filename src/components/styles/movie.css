@@ -1,0 +1,89 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+#nav {
+  padding: 12px 24px;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#nav a {
+  text-decoration: none;
+}
+#nav .logo {
+  color: #4FA149;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#footer {
+  height: 50px;
+  margin-top: 36px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.flex-row {
+  display: flex;
+}
+.bought {
+  display: flex;
+  align-items: center;
+}
+.bought i {
+  color: #4FA149;
+}
+.bought span {
+  margin-left: 8px;
+}
+.verticenter {
+  display: flex;
+  align-items: center;
+}
+.horizcenter {
+  display: flex;
+  justify-content: center;
+}
+.show-more {
+  cursor: pointer;
+}
+.button {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+  display: inline-block;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: rgb(234, 255, 233);
+  cursor: pointer;
+}
+.button.primary {
+  background-color: #4FA149;
+  color: white;
+}
+.button.large {
+  padding: 14px;
+}
+.button.icon {
+  display: flex;
+  align-items: center;
+}
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+}
+.action-buttons .button {
+  flex-grow: 1;
+  box-shadow: none;
+}
